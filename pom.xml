@@ -64,7 +64,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>ProjectPink</finalName>
+    <finalName>WebAppProject</finalName>
     <plugins>
 	    <!-- Config: Maven Tomcat Plugin -->
 	    <!-- http://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin -->
