@@ -18,8 +18,8 @@ public class HelloWorldController {
 	@RequestMapping("/test.do")
 	public String hello1(Model model) {
 		
-		model.addAttribute("greeting", "SP-1");
-		model.addAttribute("test","test");
+		model.addAttribute("greeting", "SP-2");
+
 		return "helloworld";
 	}
 }
