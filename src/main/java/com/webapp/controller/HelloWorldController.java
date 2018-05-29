@@ -15,10 +15,10 @@ public class HelloWorldController {
 		return "helloworld";
 	}
 	
-	@RequestMapping("/fuck.do")
+	@RequestMapping("/test.do")
 	public String hello1(Model model) {
 		
-		model.addAttribute("greeting", "FuckOff");
+		model.addAttribute("greeting", "test");
 		return "helloworld";
 	}
 }
