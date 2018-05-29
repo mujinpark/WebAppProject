@@ -18,7 +18,7 @@ public class HelloWorldController {
 	@RequestMapping("/test.do")
 	public String hello1(Model model) {
 		
-		model.addAttribute("greeting", "test");
+		model.addAttribute("greeting", "SP-1");
 		return "helloworld";
 	}
 }
