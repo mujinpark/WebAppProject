@@ -19,6 +19,7 @@ public class HelloWorldController {
 	public String hello1(Model model) {
 		
 		model.addAttribute("greeting", "SP-1");
+		model.addAttribute("test","test");
 		return "helloworld";
 	}
 }
