@@ -18,7 +18,10 @@ public class HelloWorldController {
 	@RequestMapping("/test.do")
 	public String hello1(Model model) {
 		
+		System.out.println("/test.do");
+		
 		model.addAttribute("greeting", "SP-2");
+		
 
 		return "helloworld";
 	}
