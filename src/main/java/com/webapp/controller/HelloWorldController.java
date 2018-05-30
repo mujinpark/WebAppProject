@@ -21,7 +21,7 @@ public class HelloWorldController {
 		System.out.println("/test.do");
 		
 		model.addAttribute("greeting", "SP-2");
-		
+		model.addAttribute("test", "test");
 
 		return "helloworld";
 	}
